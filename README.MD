@@ -3,7 +3,7 @@ Implement factory design pattern using Card as the factory interface. The interf
 
 Magic Card and Playing Card are concrete objects that implements card interface.
 
-CardRecord holds attributes such as cardId, cardName, and card.
+CardRecord holds attributes such as cardID, cardName, and card.
 
 Card Shop would be the client object.
 
