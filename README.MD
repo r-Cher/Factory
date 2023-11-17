@@ -1,14 +1,14 @@
 ## Problem Scenario
-Implement factory design pattern using Pet as the factory interface. The interface implements two methods: makeSound() and play().
+Implement factory design pattern using Card as the factory interface. The interface implements two methods: draw() and flip().
 
-Dog and Cat are concrete objects that implements Pet interface.
+Magic Card and Playing Card are concrete objects that implements card interface.
 
-PetRecord holds attributes such as petId, petName, and Pet.
+CardRecord holds attributes such as cardId, cardName, and card.
 
-Clinic would be the client object.
+Card Shop would be the client object.
 
 Refer to the UML Class Diagram
 
 ## UML Class Diagram
 
-![alt text](PetClinic.png)
+![alt text](card.png)
